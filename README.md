@@ -9,5 +9,6 @@ npm i typescript -g
 tsc index.ts #tsc <compile target file>
 ```
 ### Index
-**1. [Datatypes](./01-data-types/data-type.ts)**
-**2. [Interface](./02-interface/interface-todolist.ts)**
+**1. [Datatypes](./01-data-types/data-type.ts)**  
+**2. [Interface](./02-interface/interface-todolist.ts)**  
+**3. [Extends](./02-interface/extends.ts)**
