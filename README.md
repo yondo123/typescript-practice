@@ -12,3 +12,4 @@ tsc index.ts #tsc <compile target file>
 **1. [Datatypes](./01-data-types/data-type.ts)**  
 **2. [Interface](./02-interface/interface-todolist.ts)**  
 **3. [Extends](./02-interface/extends.ts)**
+**4. [Type Alias](./03-type-alias/type-alias.ts)**
