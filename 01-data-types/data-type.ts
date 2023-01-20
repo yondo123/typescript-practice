@@ -1,3 +1,6 @@
+// 원시타입
+const isTrue:true = true;
+
 // Boolean
 let flag: boolean = true;
 
@@ -21,6 +24,10 @@ const game: object = {
     title: 'FIFA22',
     price: 640000
 };
+
+//Non-null assertion operator
+let canBeNull:number;
+console.log(canBeNull!);
 
 // Function
 //(arg1: type, arg2: type..) :return type
