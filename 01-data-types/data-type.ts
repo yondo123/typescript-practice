@@ -29,13 +29,26 @@ const game: object = {
 let canBeNull:number;
 console.log(canBeNull!);
 
+//Template literals
+type Fruit = 'apple' | 'banana';
+type FruitText = `${Fruit} 입니다.`
+
+const apple:FruitText = 'banana 입니다.'
+
 // Function
 //(arg1: type, arg2: type..) :return type
 function sum(a: number, b: number): number {
     return a + b;
 }
 
+//Rest Parameters
+function arraySum(greeting:string,...args: number[]){
+    return args.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+}
+arraySum("hello!",2,3);
+
 // void
 function logger(message: string): void {
     console.log(`[LOG]: ${message}`);
 }
+logger("test log");
